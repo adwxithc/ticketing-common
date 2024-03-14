@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del-cli ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"created a common module that can be shared among diffrent services in ticketing app\" && npm version patch && npm run build  && npm publish"
+    "pub": "git add . && git commit -m \"seperated dev-dependencies\" && npm version patch && npm run build  && npm publish"
   },
   "keywords": [],
   "author": "",
